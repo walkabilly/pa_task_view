@@ -1,0 +1,41 @@
+<CRANTaskView>
+  
+  <name>
+    Physical Activity
+  </name>
+  
+  <topic>
+    Physical Activity
+  </topic>
+  
+  <maintainer email="dfuller@mun.ca">Daniel Fuller</maintainer>
+  
+  <version>2018-05-06</version>
+  
+  <url>
+    http://www.walkabilly.ca/
+  </url>
+  
+  <info>
+    Emphasize something <b>important</b> with standard HTML tags, and reference the package <pkg>foo</pkg> and also the view <view>TimeSeries</view>.
+  </info>
+  
+  <packagelist>
+    <pkg>Actigraphy</pkg> 
+    <pkg>activpalProcessing</pkg>
+    <pkg>AGread</pkg>
+    <pkg>fitbitScraper</pkg>
+    <pkg>GGIR</pkg>
+    <pkg>heatex</pkg>
+    <pkg>lifelogr</pkg>
+    <pkg>nparACT</pkg>
+    <pkg>PASenseWear</pkg>
+    <pkg>PhysicalActivity</pkg>
+  </packagelist>
+
+  <links>
+    <a href="http://path/to/homepage/">The Title of a Relevant Homepage</a>
+    <view>Test</view>
+  </links>
+
+</CRANTaskView>
