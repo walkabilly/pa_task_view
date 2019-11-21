@@ -2,7 +2,9 @@
 title: "find-packages"
 author: "Javad Khataei"
 date: "11/21/2019"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -52,23 +54,40 @@ I had originally included the term `exercise` but that search included many pack
 ```{r}
 library(stringr)
 library(dplyr)
+library(kableExtra)
 ```
 
 ```{r}
-library(cranly)
-package_db <- clean_CRAN_db(tools::CRAN_package_db())
-```
+pa_search <-
+    c(
+        "physical activity",
+        "actigraph",
+        "Actigraph",
+        "fitbit",
+        "garmin",
+        "geneactiv",
+        "apple health",
+        "google fit",
+        "samsung health",
+        "exercise",
+        "omron",
+        "actilife",
+        "cycling",
+        "swimming",
+        "activity counts",
+        "sedentary",
+        "activPAL"
+    )
 
-```{r}
-pa_search <- c("physical activity", "actigraph", "fitbit", "garmin", "geneactiv", "apple health", "google fit", "samsung health")
-package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse="|"))
+package_db$pa <-
+    str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
 
 From this search there are 10 packages are designed to analyse some type of physical activity data.
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 table(pa_packages$package)
 ```
 
@@ -77,11 +96,23 @@ table(pa_packages$package)
 pa_pkg_names <- pa_packages$package
 ```
 
-Just for fun make a network of the packages.
-
+## Packages' description
 
 ```{r}
-package_network <- build_network(package_db)
-pa_packages_network <- package_with(package_network, name = c(pa_pkg_names))
-plot(package_network, package = pa_packages_network, legend = TRUE)
+pa_packages %>% select(package, description) %>%
+   kable() %>%
+   kable_styling("striped", full_width = F) %>% 
+   column_spec(2, width_max = 100)
 ```
+
+
+
+
+<!-- Just for fun make a network of the packages. -->
+
+
+<!-- ```{r} -->
+<!-- package_network <- build_network(package_db) -->
+<!-- pa_packages_network <- package_with(package_network, name = c(pa_pkg_names)) -->
+<!-- plot(package_network, package = pa_packages_network, legend = TRUE) -->
+<!-- ``` -->
