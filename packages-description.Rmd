@@ -1,0 +1,83 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Physical activity packages:
+
+
+
+### ActFrag:
+
+Provides functions to extract commonly used fragmentation metrics to quantify such time accumulation strategies based on minute level actigraphy-measured activity counts data. It can create Wear/NonWear Flags and perform fragmentation.
+
+
+### Actigraphy
+
+Performs Functional Data Analysis (FDA) and implements functional linear modeling and analysis for actigraphy data.
+**Keywords**: Apnea, BMI, circadian activity patterns, Functional Data Analysis
+
+
+### activityCounts	
+
+Generates ActiLife activity counts from raw acceleration data for different accelerometer brands.  There is considerable research validating and developing algorithms for human activity using ActiLife activity counts. Unfortunately, ActiLife, the software which generates activity counts, is proprietary. This package generates activity counts from raw accelerometer data.The package contains two sample datasets. `sampleXYZ` is a sample of raw accelerometer data in g units recorded by ActiGraph GT3X. Activity counts are generate for the `sampleXYZ` and store in `sampleCounts` dataset. To compare the package's result with ActiLife output the activity counts obtained from ActiLife software are also provided in `sampleCounts`. **Keywords**: Activity counts, Actilife, Actigraph
+
+
+
+### activPAL
+
+Contains functions to generate pre-defined summary statistics from activPAL events files <http:www.palt.com>. The package also contains functions to produce informative graphics that visualise physical activity behaviour and trends. This includes generating graphs that align physical activity behaviour with additional time based observations described by other data sets, such as sleep diaries and continuous glucose monitoring data.  **Keywords**: activPAL glucose monitoring , sleep diaries, activity summary
+
+
+### activpalProcessing
+
+Performs estimation of physical activity and sedentary behavior variables from activPAL (PAL Technologies, Glasgow, Scotland) events files. See <http://paltechnologies.com> for more information on the activPAL.  **Keywords**: read activePAL, activity estimatation
+
+### cycleRtools	
+A suite of functions for analysing cycling data. It can read Garmin file (.fit), summarise and Visualise the data. **Keywords**: read Garmin, cycling
+
+
+
+
+### fitbitScraper	
+
+Scrapes data from Fitbit <http://www.fitbit.com>. First use the package to log in to your Fitbit account and then receive the data. It can get intraday data, sleep data , etc. This does not use the official API, but instead uses the API that the web dashboard uses to generate the graphs displayed on the dashboard after login at <http://www.fitbit.com>  **Keywords**: read Fitbit
+
+
+### fitdc
+
+A pure R library for decoding Garmin FIT files.  **Keywords**:read Garmin
+
+
+
+### GENEAclassify	
+
+Segmentation and classification procedures for data from the 'Activinsights GENEActiv' <https://www.activinsights.com/products/geneactiv/> accelerometer that provides the user with a model to guess behaviour from test data where behaviour is missing. Includes a step counting algorithm, a function to create segmented data with custom features and a function to use recursive partitioning provided in the function rpart() of the 'rpart' package to create classification models. **Keywords**: read GENEActiv, classification 
+
+
+### GENEAread	
+
+Functions and analytics for GENEA-compatible accelerometer data into R objects. See topic 'GENEAread' for an introduction to the package. See <https://www.activinsights.com/products/geneactiv/> for more details on the GENEActiv device. It provides a function for reading GENEA accelerometer data (.bin files), and dunctions to manipualte the data. **Keywords**: read GENEActiv, downsampling , epochal summaries,  STFT analyses, plotting
+
+
+### GGIR	
+
+A tool to process and analyse data collected with wearable raw acceleration sensors as described in van Hees and colleagues (2014) <doi: 10.1152/japplphysiol.00421.2014> and (2015) <doi: 10.1371/journal.pone.0142533>. The package has been developed and tested for binary data from 'GENEActiv' <https://www.activinsights.com/> and GENEA devices (not for sale), .csv-export data from 'Actigraph' <http://actigraphcorp.com> devices, and .cwa and .wav-format data from 'Axivity' <https://axivity.com/product/ax3>. These devices are currently widely used in research on human daily physical activity. Further, the package can handle accelerometer data file from any other sensor brand providing that the data is stored in csv format and has either no header or a two column header. **Keywords**:   GENEActiv; accelerometry; calibration; epidemiology;sleep detection algorithm
+
+### heatex	
+
+The heatex package calculates heat storage in the body and the components of heat exchange (conductive, convective, radiative, and evaporative) between the body and the environment during physical activity based on the principles of partitional calorimetry. The program enables heat exchange calculations for a range of environmental conditions when wearing various clothing ensembles.  **Keywords**: heat exchange, calorimetry
+
+
+### HMMpa	
+Analysing time-series accelerometer data to quantify length and intensity of physical activity using hidden Markov models. It also contains the traditional cut-off point method. Witowski V, Foraita R, Pitsiladis Y, Pigeot I, Wirsik N (2014)<doi:10.1371/journal.pone.0114089>. **Keywords**: cut-off point method, hidden Markov model, PA level
+
+
+### nparACT
+
+serves the non-parametric analysis of actigraphy data.
+Computed parameters include interdaily stability (IS), intradaily variability (IV) and relative amplitude (RA) as well as start times and average activity during the 10 h with maximal and the 5 h with minimal activity (i.e. M10 and L5).
+**Keywords**: Actigraphy,Sleep, Circadian rhythm, Zeitgeber, Internal clock, Amplitude
+
+
+
