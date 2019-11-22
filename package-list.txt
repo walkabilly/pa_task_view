@@ -11,8 +11,11 @@ GENEAread
 GGIR
 heatex
 HMMpa
-
-
-
-
-
+lifelogr
+PASenseWear
+PAutilities
+PhysicalActivity
+PML
+SwimmeR
+trackeR
+trackeRapp
