@@ -1,7 +1,7 @@
 <CRANTaskView>
   
   <name>
-    Physical Activity
+    PhysicalActivity
   </name>
   
   <topic>
@@ -13,7 +13,7 @@
   <version>2019-11-28</version>
   
   <url>
-    http://www.walkabilly.ca/
+    https://CRAN.R-project.org/view=PhysicalActivity
   </url>
   
   <info>
