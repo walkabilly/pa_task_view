@@ -51,14 +51,14 @@
   
   <div>
   <h3>activPAL</h3>
-  <p>Contains functions to generate pre-defined summary statistics from activPAL events files <a href="http:www.palt.com" class="uri">http:www.palt.com</a>. The package also contains functions to produce informative graphics that visualise physical activity behaviour and trends. This includes generating graphs that align physical activity behaviour with additional time based observations described by other data sets, such as sleep diaries and continuous glucose monitoring data. <strong>Keywords</strong>: activPAL glucose monitoring , sleep diaries, activity summary</p>
+  <p>Contains functions to generate pre-defined summary statistics from activPAL events files <a href="http:www.palt.com">http:www.palt.com</a>. The package also contains functions to produce informative graphics that visualise physical activity behaviour and trends. This includes generating graphs that align physical activity behaviour with additional time based observations described by other data sets, such as sleep diaries and continuous glucose monitoring data. <strong>Keywords</strong>: activPAL glucose monitoring , sleep diaries, activity summary</p>
   </div>
   
   
   
   <div>
   <h3>activpalProcessing</h3>
-  <p>Performs estimation of physical activity and sedentary behavior variables from activPAL (PAL Technologies, Glasgow, Scotland) events files. See <a href="http://paltechnologies.com" class="uri">http://paltechnologies.com</a> for more information on the activPAL. <strong>Keywords</strong>: read activePAL, activity estimatation</p>
+  <p>Performs estimation of physical activity and sedentary behavior variables from activPAL (PAL Technologies, Glasgow, Scotland) events files. See <a href="http://paltechnologies.com">http://paltechnologies.com</a> for more information on the activPAL. <strong>Keywords</strong>: read activePAL, activity estimatation</p>
   </div>
   
   
@@ -73,7 +73,7 @@
   
   <div>
   <h3>fitbitScraper</h3>
-  <p>Scrapes data from Fitbit <a href="http://www.fitbit.com" class="uri">http://www.fitbit.com</a>. First use the package to log in to your Fitbit account and then receive the data. It can get intraday data, sleep data , etc. This does not use the official API, but instead uses the API that the web dashboard uses to generate the graphs displayed on the dashboard after login at <a href="http://www.fitbit.com" class="uri">http://www.fitbit.com</a> <strong>Keywords</strong>: read Fitbit</p>
+  <p>Scrapes data from Fitbit <a href="http://www.fitbit.com">http://www.fitbit.com</a>. First use the package to log in to your Fitbit account and then receive the data. It can get intraday data, sleep data , etc. This does not use the official API, but instead uses the API that the web dashboard uses to generate the graphs displayed on the dashboard after login at <a href="http://www.fitbit.com">http://www.fitbit.com</a> <strong>Keywords</strong>: read Fitbit</p>
   </div>
   
   
@@ -88,7 +88,7 @@
   
   <div>
   <h3>GENEAclassify</h3>
-  <p>Segmentation and classification procedures for data from the 'Activinsights GENEActiv' <a href="https://www.activinsights.com/products/geneactiv/" class="uri">https://www.activinsights.com/products/geneactiv/</a> accelerometer that provides the user with a model to guess behaviour from test data where behaviour is missing. Includes a step counting algorithm, a function to create segmented data with custom features and a function to use recursive partitioning provided in the function rpart() of the 'rpart' package to create classification models. <strong>Keywords</strong>: read GENEActiv, classification</p>
+  <p>Segmentation and classification procedures for data from the 'Activinsights GENEActiv' <a href="https://www.activinsights.com/products/geneactiv/">https://www.activinsights.com/products/geneactiv/</a> accelerometer that provides the user with a model to guess behaviour from test data where behaviour is missing. Includes a step counting algorithm, a function to create segmented data with custom features and a function to use recursive partitioning provided in the function rpart() of the 'rpart' package to create classification models. <strong>Keywords</strong>: read GENEActiv, classification</p>
   </div>
   
   
@@ -96,7 +96,7 @@
   
   <div>
   <h3>GENEAread</h3>
-  <p>Functions and analytics for GENEA-compatible accelerometer data into R objects. See topic 'GENEAread' for an introduction to the package. See <a href="https://www.activinsights.com/products/geneactiv/" class="uri">https://www.activinsights.com/products/geneactiv/</a> for more details on the GENEActiv device. It provides a function for reading GENEA accelerometer data (.bin files), and dunctions to manipualte the data. <strong>Keywords</strong>: read GENEActiv, downsampling , epochal summaries, STFT analyses, plotting</p>
+  <p>Functions and analytics for GENEA-compatible accelerometer data into R objects. See topic 'GENEAread' for an introduction to the package. See <a href="https://www.activinsights.com/products/geneactiv/">https://www.activinsights.com/products/geneactiv/</a> for more details on the GENEActiv device. It provides a function for reading GENEA accelerometer data (.bin files), and dunctions to manipualte the data. <strong>Keywords</strong>: read GENEActiv, downsampling , epochal summaries, STFT analyses, plotting</p>
   </div>
   
   
@@ -104,7 +104,7 @@
   
   <div>
   <h3>GGIR</h3>
-  <p>A tool to process and analyse data collected with wearable raw acceleration sensors as described in van Hees and colleagues (2014) &lt;doi: 10.1152/japplphysiol.00421.2014&gt; and (2015) &lt;doi: 10.1371/journal.pone.0142533&gt;. The package has been developed and tested for binary data from 'GENEActiv' <a href="https://www.activinsights.com/" class="uri">https://www.activinsights.com/</a> and GENEA devices (not for sale), .csv-export data from 'Actigraph' <a href="http://actigraphcorp.com" class="uri">http://actigraphcorp.com</a> devices, and .cwa and .wav-format data from 'Axivity' <a href="https://axivity.com/product/ax3" class="uri">https://axivity.com/product/ax3</a>. These devices are currently widely used in research on human daily physical activity. Further, the package can handle accelerometer data file from any other sensor brand providing that the data is stored in csv format and has either no header or a two column header. <strong>Keywords</strong>: GENEActiv; accelerometry; calibration; epidemiology;sleep detection algorithm</p>
+  <p>A tool to process and analyse data collected with wearable raw acceleration sensors as described in van Hees and colleagues (2014) lt;doi: 10.1152/japplphysiol.00421.2014gt; and (2015) lt;doi: 10.1371/journal.pone.0142533gt;. The package has been developed and tested for binary data from 'GENEActiv' <a href="https://www.activinsights.com/">https://www.activinsights.com/</a> and GENEA devices (not for sale), .csv-export data from 'Actigraph' <a href="http://actigraphcorp.com">http://actigraphcorp.com</a> devices, and .cwa and .wav-format data from 'Axivity' <a href="https://axivity.com/product/ax3">https://axivity.com/product/ax3</a>. These devices are currently widely used in research on human daily physical activity. Further, the package can handle accelerometer data file from any other sensor brand providing that the data is stored in csv format and has either no header or a two column header. <strong>Keywords</strong>: GENEActiv; accelerometry; calibration; epidemiology;sleep detection algorithm</p>
   </div>
   
   
@@ -119,7 +119,7 @@
   
   <div>
   <h3>HMMpa</h3>
-  <p>Analysing time-series accelerometer data to quantify length and intensity of physical activity using hidden Markov models. It also contains the traditional cut-off point method. Witowski V, Foraita R, Pitsiladis Y, Pigeot I, Wirsik N (2014)<a href="doi:10.1371/journal.pone.0114089" class="uri">doi:10.1371/journal.pone.0114089</a>. <strong>Keywords</strong>: cut-off point method, hidden Markov model, PA level</p>
+  <p>Analysing time-series accelerometer data to quantify length and intensity of physical activity using hidden Markov models. It also contains the traditional cut-off point method. Witowski V, Foraita R, Pitsiladis Y, Pigeot I, Wirsik N (2014)<a href="doi:10.1371/journal.pone.0114089">doi:10.1371/journal.pone.0114089</a>. <strong>Keywords</strong>: cut-off point method, hidden Markov model, PA level</p>
   </div>
   
   
@@ -133,7 +133,7 @@
   
   <div>
   <h3>nparACT</h3>
-  <p>serves the non-parametric analysis of actigraphy data. Computed parameters include interdaily stability (IS), intradaily variability (IV) and relative amplitude (RA) as well as start times and average activity during the 10 h with maximal and the 5 h with minimal activity (i.e.&;M10 and L5). <strong>Keywords</strong>: Actigraphy,Sleep, Circadian rhythm, Zeitgeber, Internal clock, Amplitude</p>
+  <p>serves the non-parametric analysis of actigraphy data. Computed parameters include interdaily stability (IS), intradaily variability (IV) and relative amplitude (RA) as well as start times and average activity during the 10 h with maximal and the 5 h with minimal activity (i.e.;M10 and L5). <strong>Keywords</strong>: Actigraphy,Sleep, Circadian rhythm, Zeitgeber, Internal clock, Amplitude</p>
   </div>
   
   
@@ -149,7 +149,7 @@
   
   <div>
   <h3>PAutilities</h3>
-  <p>A collection of utilities that are useful for a broad range of tasks that are common in physical activity research, including the following: creation of Bland-Altman plots, formatted descriptive statistics, metabolic calculations (e.g.&;basal metabolic rate predictions) and conversions, demographic calculations (age and age-for-body-mass-index percentile), bout analysis of moderate-to-vigorous intensity physical activity, and analysis of bout detection algorithm performance. <strong>Keywords</strong>: Bland-Altman plot. activity level, BMI, visualization</p>
+  <p>A collection of utilities that are useful for a broad range of tasks that are common in physical activity research, including the following: creation of Bland-Altman plots, formatted descriptive statistics, metabolic calculations (e.g.;basal metabolic rate predictions) and conversions, demographic calculations (age and age-for-body-mass-index percentile), bout analysis of moderate-to-vigorous intensity physical activity, and analysis of bout detection algorithm performance. <strong>Keywords</strong>: Bland-Altman plot. activity level, BMI, visualization</p>
   </div>
   
   
@@ -182,7 +182,7 @@
   
   <div>
   <h3>trackeR</h3>
-  <p>Provides infrastructure for handling running, cycling and swimming data from GPS-enabled tracking devices within R. The package provides methods to extract, clean and organise workout and competition data into session-based and unit-aware data objects of class 'trackeRdata' (S3 class). The information can then be visualised, summarised, and analysed through flexible and extensible methods. Frick and Kosmidis (2017) &lt;doi: 10.18637/jss.v082.i07&gt;, which is updated and maintained as one of the vignettes, provides detailed descriptions of the package and its methods, and real-data demonstrations of the package functionality. <strong>Keywords</strong>: tracking, work capacity, running, cycling, distribution profiles, read TCX</p>
+  <p>Provides infrastructure for handling running, cycling and swimming data from GPS-enabled tracking devices within R. The package provides methods to extract, clean and organise workout and competition data into session-based and unit-aware data objects of class 'trackeRdata' (S3 class). The information can then be visualised, summarised, and analysed through flexible and extensible methods. Frick and Kosmidis (2017) lt;doi: 10.18637/jss.v082.i07gt;, which is updated and maintained as one of the vignettes, provides detailed descriptions of the package and its methods, and real-data demonstrations of the package functionality. <strong>Keywords</strong>: tracking, work capacity, running, cycling, distribution profiles, read TCX</p>
   </div>
   
   
@@ -191,24 +191,11 @@
   
   <div>
   <h3>trackeRapp</h3>
-  <p>Provides an integrated user interface and workflow for the analysis of running, cycling and swimming data from GPS-enabled tracking devices through the 'trackeR' <a href="https://CRAN.R-project.org/package=trackeR" class="uri">https://CRAN.R-project.org/package=trackeR</a> R package. <strong>Keywords</strong>: trackeR</p>
+  <p>Provides an integrated user interface and workflow for the analysis of running, cycling and swimming data from GPS-enabled tracking devices through the 'trackeR' <a href="https://CRAN.R-project.org/package=trackeR">https://CRAN.R-project.org/package=trackeR</a> R package. <strong>Keywords</strong>: trackeR</p>
   </div>
 
 
 </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
