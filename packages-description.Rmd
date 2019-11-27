@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Physical activity packages:
@@ -72,6 +74,10 @@ The heatex package calculates heat storage in the body and the components of hea
 ### HMMpa	
 Analysing time-series accelerometer data to quantify length and intensity of physical activity using hidden Markov models. It also contains the traditional cut-off point method. Witowski V, Foraita R, Pitsiladis Y, Pigeot I, Wirsik N (2014)<doi:10.1371/journal.pone.0114089>. **Keywords**: cut-off point method, hidden Markov model, PA level
 
+### lifelogr
+
+Provides a framework for combining self-data (exercise, sleep, etc.) from multiple sources (fitbit, Apple Health), creating visualizations, and experimenting on onself.  **Keywords**: fitbit, Apple Health, visualization
+
 
 ### nparACT
 
@@ -79,5 +85,36 @@ serves the non-parametric analysis of actigraphy data.
 Computed parameters include interdaily stability (IS), intradaily variability (IV) and relative amplitude (RA) as well as start times and average activity during the 10 h with maximal and the 5 h with minimal activity (i.e. M10 and L5).
 **Keywords**: Actigraphy,Sleep, Circadian rhythm, Zeitgeber, Internal clock, Amplitude
 
+### PASenseWear
+
+Provide summary table of daily physical activity and per-person/grouped heat map for accelerometer data from SenseWear Armband.  **Keywords**: PASenseWear
+
+
+### PAutilities
+
+A collection of utilities that are useful for a broad range of tasks that are common in physical activity research, including the following: creation of Bland-Altman plots, formatted descriptive statistics, metabolic calculations (e.g. basal metabolic rate predictions) and conversions, demographic calculations (age and age-for-body-mass-index percentile), bout analysis of moderate-to-vigorous intensity physical activity, and analysis of bout detection algorithm performance. **Keywords**: Bland-Altman plot. activity level, BMI, visualization
+
+
+### PhysicalActivity	
+
+It provides a function "wearingMarking" for classification of monitor wear and nonwear time intervals in accelerometer data collected to assess physical activity. The package also contains functions for making plot for accelerometer data and obtaining the summary of various information including daily monitor wear time and the mean monitor wear time during valid days. The revised package version 0.2-1 improved the functions in the previous version regarding speed and robustness. In addition, several functions were added: "markDelivery" can classify days for ActiGraph delivery by mail; "markPAI" can categorize physical activity intensity level based on user-defined cut-points of accelerometer counts. It also supports importing ActiGraph AGD files with "readActigraph" and "queryActigraph" functions. The package also better supports time zones and daylight saving.**Keywords**: ActiGraph, accelerometer
+
+### PML	
+
+Penalized Multi-Band Learning algorithm can be effectively implemented for circadian rhythm analysis and daily activity pattern characterization using actigraphy (continuously measured objective physical activity data). Functions for interactive visualization of actigraph data are also included. Method reference: Li, X., Kane, M., Zhang, Y., Sun, W., Song, Y., Dong, S., Lin, Q., Zhu, Q., Jiang, F., Zhao, H. (2019) A Novel Penalized Multi-band Learning Approach Characterizes the Consolidation of Sleep-Wake Circadian Rhythms During Early Childhood Development. **Keywords**: circadian rhythm, actigraph 
+
+
+### SwimmeR	
+
+There are two goals for 'SwimmeR' as presently constructed. First, it converts swimming times (performances) between the computationally useful format of seconds, reported to the 100ths place (eg 95.37) and the conventional reporting format (1:35.37) used in the swimming community. Secondly 'SwimmeR' converts times between the various pool sizes used in competitive swimming, namely 50m length (LCM), 25m length (SCM) and 25y length (SCY). **Keywords**: swimming, timing format 
+
+### trackeR
+
+Provides infrastructure for handling running, cycling and swimming data from GPS-enabled tracking devices within R. The package provides methods to extract, clean and organise workout and competition data into session-based and unit-aware data objects of class 'trackeRdata' (S3 class). The information can then be visualised, summarised, and analysed through flexible and extensible methods. Frick and Kosmidis (2017) <doi: 10.18637/jss.v082.i07>, which is updated and maintained as one of the vignettes, provides detailed descriptions of the package and its methods, and real-data demonstrations of the package functionality. **Keywords**: tracking, work capacity, running, cycling, distribution profiles, read TCX
+
+
+### trackeRapp
+
+Provides an integrated user interface and workflow for the analysis of running, cycling and swimming data from GPS-enabled tracking devices through the 'trackeR' <https://CRAN.R-project.org/package=trackeR> R package.  **Keywords**: trackeR
 
 
