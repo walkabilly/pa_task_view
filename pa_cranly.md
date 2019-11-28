@@ -14,6 +14,8 @@ output:
 First step is use the `cranly` package to see what is out there. I found this tutorial to help https://rviews.rstudio.com/2018/05/31/exploring-r-packages/. Now I have a tidy dataframe with all the packages. 
 
 
+
+
 ```r
 library(cranly)
 package_db <- clean_CRAN_db(tools::CRAN_package_db())
