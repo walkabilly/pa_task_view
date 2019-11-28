@@ -4,6 +4,10 @@
 ## Copyright 2014 - 2017  Dirk Eddelbuettel
 ## Released under GPL-2 or later
 
+# --------Edited section by Javad Khataei, 11/28/2019-----------
+setwd("~/taskview/pa_task_view")
+# --------------------------------------------------------------
+
 ctv <- "PhysicalActivity"
 
 ctvfile  <- paste0(ctv, ".ctv")
@@ -43,6 +47,8 @@ cmd <- paste0("cat ", htmlfile,
               "-e's/( \\[/(\\[/g' ",
               ###  - write out mdfile
               "> ", mdfile)
+
+
 
 system(cmd)                             # run the conversion
 

@@ -20,3 +20,9 @@
 .SwimmeR1
 .trackeR1
 .trackeRapp1
+
+=========
+
+
+p <-   ("ActFrag" ,"Actigraphy"   ,  "activityCounts"  ,  "activPAL"     ,   "activpalProcessing" ,"cycleRtools"  ,     
+"fitbitScraper"   ,   "fitdc"     ,         "GENEAclassify"   ,   "GENEAread"     ,    "GGIR"        ,       "heatex", "HMMpa"       ,       "lifelogr"  ,         "nparACT"      ,      "PASenseWear"    ,    "PAutilities"     ,   "PhysicalActivity"   "PML"    ,            "SwimmeR"          ,  "trackeR"         ,   "trackeRapp")
