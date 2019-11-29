@@ -199,15 +199,15 @@
   <packagelist>
     <pkg>ActFrag</pkg>
     <pkg>Actigraphy</pkg>
-    <pkg>activityCounts</pkg>
+    <pkg priority="core">activityCounts</pkg>
     <pkg>activPAL</pkg>
     <pkg>activpalProcessing</pkg>
     <pkg>cycleRtools</pkg>
     <pkg>fitbitScraper</pkg>	
-    <pkg>fitdc</pkg>
+    <pkg priority="core">fitdc</pkg>
     <pkg>GENEAclassify</pkg>
     <pkg>GENEAread</pkg>
-    <pkg>GGIR</pkg>
+    <pkg priority="core">GGIR</pkg>
     <pkg>heatex</pkg>
     <pkg>HMMpa</pkg>
     <pkg>lifelogr</pkg>
@@ -217,7 +217,7 @@
     <pkg>PhysicalActivity</pkg>
     <pkg>PML</pkg>
     <pkg>SwimmeR</pkg>
-    <pkg>trackeR</pkg>
+    <pkg priority="core">trackeR</pkg>
     <pkg>trackeRapp</pkg>
   </packagelist>
 
