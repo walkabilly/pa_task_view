@@ -21,6 +21,20 @@
   
   <h1>Physical activity packages:</h1>
   
+  <div>
+  <pkg>acc</pkg>
+  <p>Processes accelerometer data from uni-axial and tri-axial devices, and generates data summaries. Also includes functions to plot, analyze, and simulate accelerometer data.</p>
+  </div>
+  
+  <div>
+  <pkg>accelerometry</pkg>
+  <p>A collection of functions that perform operations on time-series accelerometer data, such as identify non-wear time, flag minutes that are part of an activity bout, and find the maximum 10-minute average count value. The functions are generally very flexible, allowing for a variety of algorithms to be implemented. Most of the functions are written in C++ for efficiency.</p>
+  </div>
+  
+  <div>
+  <pkg>accelmissing</pkg>
+  <p>Imputation for the missing count values in accelerometer data. The methodology includes both parametric and semi-parametric multiple imputations under the zero-inflated Poisson lognormal model. This package also provides multiple functions to pre-process the accelerometer data previous to the missing data imputation. These includes detecting wearing and non-wearing time, selecting valid days and subjects, and creating plots.</p>
+  </div>
   
   <div>
   <pkg>ActFrag</pkg>
@@ -197,6 +211,9 @@
   
   
   <packagelist>
+    <pkg>acc</pkg>
+    <pkg>accelerometry</pkg>
+    <pkg>accelmissing</pkg>
     <pkg>ActFrag</pkg>
     <pkg>Actigraphy</pkg>
     <pkg priority="core">activityCounts</pkg>
@@ -205,7 +222,7 @@
     <pkg>cycleRtools</pkg>
     <pkg>fitbitScraper</pkg>	
     <pkg priority="core">fitdc</pkg>
-    <pkg>GENEAclassify</pkg>
+    <pkg priority="core">GENEAclassify</pkg>
     <pkg>GENEAread</pkg>
     <pkg priority="core">GGIR</pkg>
     <pkg>heatex</pkg>
@@ -214,7 +231,7 @@
     <pkg>nparACT</pkg>
     <pkg>PASenseWear</pkg>
     <pkg>PAutilities</pkg>
-    <pkg>PhysicalActivity</pkg>
+    <pkg priority="core">PhysicalActivity</pkg>
     <pkg>PML</pkg>
     <pkg>SwimmeR</pkg>
     <pkg priority="core">trackeR</pkg>
