@@ -5,8 +5,8 @@
 ## Released under GPL-2 or later
 
 # --------Edited section by Javad Khataei, 11/28/2019-----------
-setwd("~/taskview/pa_task_view") # windows system
-setwd("~/codes/pa_task_view") # Linux system
+#setwd("pa_task_view") # windows system
+#setwd("pa_task_view") # Linux system
 # --------------------------------------------------------------
 
 ctv <- "PhysicalActivity"

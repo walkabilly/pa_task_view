@@ -20,6 +20,44 @@ as most of the physical activity data is in time-series format.
 
 <div>
 
+[acc](https://cran.r-project.org/package=acc)
+
+Processes accelerometer data from uni-axial and tri-axial devices, and
+generates data summaries. Also includes functions to plot, analyze, and
+simulate accelerometer data.
+
+</div>
+
+<div>
+
+[accelerometry](https://cran.r-project.org/package=accelerometry)
+
+A collection of functions that perform operations on time-series
+accelerometer data, such as identify non-wear time, flag minutes that
+are part of an activity bout, and find the maximum 10-minute average
+count value. The functions are generally very flexible, allowing for a
+variety of algorithms to be implemented. Most of the functions are
+written in C++ for efficiency.
+
+</div>
+
+<div>
+
+[accelmissing](https://cran.r-project.org/package=accelmissing)
+
+Imputation for the missing count values in accelerometer data. The
+methodology includes both parametric and semi-parametric multiple
+imputations under the zero-inflated Poisson lognormal model. This
+package also provides multiple functions to pre-process the
+accelerometer data previous to the missing data imputation. These
+includes detecting wearing and non-wearing time, selecting valid days
+and subjects, and creating plots. **Keywords** : Missing data,
+imputation
+
+</div>
+
+<div>
+
 [ActFrag](https://cran.r-project.org/package=ActFrag)
 
 Provides functions to extract commonly used fragmentation metrics to
@@ -63,7 +101,7 @@ Actilife, Actigraph
 [activPAL](https://cran.r-project.org/package=activPAL)
 
 Contains functions to generate pre-defined summary statistics from
-activPAL events files ( <http:www.palt.com>). The package also contains
+activPAL events files ( <http:www.palt.com> ). The package also contains
 functions to produce informative graphics that visualise physical
 activity behaviour and trends. This includes generating graphs that
 align physical activity behaviour with additional time based
@@ -79,7 +117,7 @@ monitoring , sleep diaries, activity summary
 
 Performs estimation of physical activity and sedentary behavior
 variables from activPAL (PAL Technologies, Glasgow, Scotland) events
-files. See ( <http://paltechnologies.com>) for more information on the
+files. See ( <http://paltechnologies.com> ) for more information on the
 activPAL. **Keywords** : read activePAL, activity estimatation
 
 </div>
@@ -98,12 +136,12 @@ cycling
 
 [fitbitScraper](https://cran.r-project.org/package=fitbitScraper)
 
-Scrapes data from Fitbit ( <http://www.fitbit.com>). First use the
+Scrapes data from Fitbit ( <http://www.fitbit.com> ). First use the
 package to log in to your Fitbit account and then receive the data. It
 can get intraday data, sleep data , etc. This does not use the official
 API, but instead uses the API that the web dashboard uses to generate
 the graphs displayed on the dashboard after login at (
-<http://www.fitbit.com>) **Keywords** : read Fitbit
+<http://www.fitbit.com> ) **Keywords** : read Fitbit
 
 </div>
 
@@ -122,7 +160,7 @@ Garmin
 
 Segmentation and classification procedures for data from the
 'Activinsights GENEActiv' (
-<https://www.activinsights.com/products/geneactiv/>) accelerometer that
+<https://www.activinsights.com/products/geneactiv/> ) accelerometer that
 provides the user with a model to guess behaviour from test data where
 behaviour is missing. Includes a step counting algorithm, a function to
 create segmented data with custom features and a function to use
@@ -138,8 +176,8 @@ classification
 
 Functions and analytics for GENEA-compatible accelerometer data into R
 objects. See topic 'GENEAread' for an introduction to the package. See (
-<https://www.activinsights.com/products/geneactiv/>) for more details on
-the GENEActiv device. It provides a function for reading GENEA
+<https://www.activinsights.com/products/geneactiv/> ) for more details
+on the GENEActiv device. It provides a function for reading GENEA
 accelerometer data (.bin files), and dunctions to manipualte the data.
 **Keywords** : read GENEActiv, downsampling , epochal summaries, STFT
 analyses, plotting
@@ -155,10 +193,10 @@ acceleration sensors as described in van Hees and colleagues (2014)
 lt;doi: 10.1152/japplphysiol.00421.2014gt; and (2015) lt;doi:
 10.1371/journal.pone.0142533gt;. The package has been developed and
 tested for binary data from 'GENEActiv' (
-<https://www.activinsights.com/>) and GENEA devices (not for sale),
-.csv-export data from 'Actigraph' ( <http://actigraphcorp.com>) devices,
-and .cwa and .wav-format data from 'Axivity' (
-<https://axivity.com/product/ax3>). These devices are currently widely
+<https://www.activinsights.com/> ) and GENEA devices (not for sale),
+.csv-export data from 'Actigraph' ( <http://actigraphcorp.com> )
+devices, and .cwa and .wav-format data from 'Axivity' (
+<https://axivity.com/product/ax3> ). These devices are currently widely
 used in research on human daily physical activity. Further, the package
 can handle accelerometer data file from any other sensor brand providing
 that the data is stored in csv format and has either no header or a two
@@ -189,7 +227,7 @@ Analysing time-series accelerometer data to quantify length and
 intensity of physical activity using hidden Markov models. It also
 contains the traditional cut-off point method. Witowski V, Foraita R,
 Pitsiladis Y, Pigeot I, Wirsik N (2014)(
-<doi:10.1371/journal.pone.0114089>). **Keywords** : cut-off point
+<doi:10.1371/journal.pone.0114089> ). **Keywords** : cut-off point
 method, hidden Markov model, PA level
 
 </div>
@@ -318,7 +356,7 @@ profiles, read TCX
 
 Provides an integrated user interface and workflow for the analysis of
 running, cycling and swimming data from GPS-enabled tracking devices
-through the 'trackeR' ( <https://CRAN.R-project.org/package=trackeR>) R
+through the 'trackeR' ( <https://CRAN.R-project.org/package=trackeR> ) R
 package. **Keywords** : trackeR
 
 </div>
@@ -329,27 +367,30 @@ package. **Keywords** : trackeR
 
 ### CRAN packages:
 
+  - [acc](https://cran.r-project.org/package=acc)
+  - [accelerometry](https://cran.r-project.org/package=accelerometry)
+  - [accelmissing](https://cran.r-project.org/package=accelmissing)
   - [ActFrag](https://cran.r-project.org/package=ActFrag)
   - [Actigraphy](https://cran.r-project.org/package=Actigraphy)
-  - [activityCounts](https://cran.r-project.org/package=activityCounts)
+  - [activityCounts](https://cran.r-project.org/package=activityCounts) (core)
   - [activPAL](https://cran.r-project.org/package=activPAL)
   - [activpalProcessing](https://cran.r-project.org/package=activpalProcessing)
   - [cycleRtools](https://cran.r-project.org/package=cycleRtools)
   - [fitbitScraper](https://cran.r-project.org/package=fitbitScraper)
-  - [fitdc](https://cran.r-project.org/package=fitdc)
-  - [GENEAclassify](https://cran.r-project.org/package=GENEAclassify)
+  - [fitdc](https://cran.r-project.org/package=fitdc) (core)
+  - [GENEAclassify](https://cran.r-project.org/package=GENEAclassify) (core)
   - [GENEAread](https://cran.r-project.org/package=GENEAread)
-  - [GGIR](https://cran.r-project.org/package=GGIR)
+  - [GGIR](https://cran.r-project.org/package=GGIR) (core)
   - [heatex](https://cran.r-project.org/package=heatex)
   - [HMMpa](https://cran.r-project.org/package=HMMpa)
   - [lifelogr](https://cran.r-project.org/package=lifelogr)
   - [nparACT](https://cran.r-project.org/package=nparACT)
   - [PASenseWear](https://cran.r-project.org/package=PASenseWear)
   - [PAutilities](https://cran.r-project.org/package=PAutilities)
-  - [PhysicalActivity](https://cran.r-project.org/package=PhysicalActivity)
+  - [PhysicalActivity](https://cran.r-project.org/package=PhysicalActivity) (core)
   - [PML](https://cran.r-project.org/package=PML)
   - [SwimmeR](https://cran.r-project.org/package=SwimmeR)
-  - [trackeR](https://cran.r-project.org/package=trackeR)
+  - [trackeR](https://cran.r-project.org/package=trackeR) (core)
   - [trackeRapp](https://cran.r-project.org/package=trackeRapp)
 
 ### Related links:
