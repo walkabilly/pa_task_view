@@ -1,10 +1,10 @@
 ---
 title: "find-packages"
-author: "Javad Khataei"
+author: "Daniel Fuller"
 date: "11/21/2019"
 output:
-  html_document: default
-  pdf_document: default
+    html_document:
+      keep_md: true
 ---
 
 ```{r setup, include=FALSE}
@@ -76,11 +76,12 @@ pa_search <-
         "swimming",
         "activity counts",
         "sedentary",
-        "activPAL"
+        "activPAL",
+        "accelerometer"
     )
 
-package_db$pa <-
-    str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
+package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
+
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
 
@@ -105,14 +106,3 @@ pa_packages %>% select(package, description) %>%
    column_spec(2, width_max = 100)
 ```
 
-
-
-
-<!-- Just for fun make a network of the packages. -->
-
-
-<!-- ```{r} -->
-<!-- package_network <- build_network(package_db) -->
-<!-- pa_packages_network <- package_with(package_network, name = c(pa_pkg_names)) -->
-<!-- plot(package_network, package = pa_packages_network, legend = TRUE) -->
-<!-- ``` -->
