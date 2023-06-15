@@ -12,26 +12,26 @@ We developed a [package finder](https://github.com/walkabilly/pa_task_view/blob/
 
 ## Core Packages 
 
-* GGIR
-* fitbitr
-* HMMpa
-* MIMSunit
-* mMARCH.AC
-* walkboutr
+* [GGIR](https://cran.r-project.org/web/packages/GGIR/index.html)
+* [fitbitr](https://cran.r-project.org/web/packages/fitbitr/index.html)
+* [HMMpa](https://cran.r-project.org/web/packages/HMMpa/index.html)
+* [MIMSunit](https://cran.r-project.org/web/packages/MIMSunit/index.html)
+* [mMARCH.AC](https://cran.r-project.org/web/packages/mMARCH.AC/index.html)
+* [walkboutr](https://cran.r-project.org/web/packages/walkboutr/index.html)
 
 ## Packages
 
 ### Data acquisition
 
-* fitbitr
-* fitbitScraper
-* GENEAread
-* GGIRread
-* lifelogr
-* PASenseWear
-* read.gt3x
-* SwimmeR
-* trackeRapp
+* [fitbitr](https://cran.r-project.org/web/packages/fitbitr/index.html)
+* [fitbitScraper](https://cran.r-project.org/web/packages/fitbitScraper/index.html)
+* [GENEAread](https://cran.r-project.org/web/packages/GENEAread/index.html)
+* [GGIRread](https://cran.r-project.org/web/packages/GGIRread/index.html)
+* [lifelogr](https://cran.r-project.org/web/packages/lifelogr/)
+* [PASenseWear](https://cran.r-project.org/web/packages/PASenseWear/)
+* [read.gt3x](https://cran.r-project.org/web/packages/read.gt3x/index.html)
+* [SwimmeR](https://cran.r-project.org/web/packages/SwimmeR/index.html)
+* [trackeRapp](https://cran.r-project.org/web/packages/trackeRapp/index.html)
 
 ### Data processing 
 
