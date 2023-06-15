@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ---
 title: "PA Task View"
 author: "Daniel Fuller"
-date: '2018-06-07'
+date: '2023-06-15'
 output:
       html_document:
         keep_md: true
@@ -28,8 +28,6 @@ output:
 First step is use the `cranly` package to see what is out there. I found this tutorial to help https://rviews.rstudio.com/2018/05/31/exploring-r-packages/. Now I have a tidy dataframe with all the packages. 
 
 
-
-
 ```{r}
 library(cranly)
 package_db <- clean_CRAN_db(tools::CRAN_package_db())
@@ -37,19 +35,9 @@ package_db <- clean_CRAN_db(tools::CRAN_package_db())
 
 ## Search dataframe for physical activity related packages
 
-I have used the search terms:
+I have used the search terms outlined in the code below. The search attempts to capture packages related to human activity recognition using both research devices and accelerometer or GPS data AND analysis of data form commercial devices (e.g., Fitbit). 
 
-- physical activity
-- actigraph
-- fitbit
-- garmin
-- geneactiv
-- apple health
-- google fit
-- samsung health
-
-I had originally included the term `exercise` but that search included many packages that were not related to physical activity. I also did the same search in title but that did not help and only returned 1 result that was already captured in the description search. 
-
+I had originally included the term `exercise` but that search included many packages that were not related to human activity recognition. I also did the same search in title but that did not help and only returned 1 result that was already captured in the description search. 
 
 ```{r}
 library(stringr)
@@ -77,7 +65,12 @@ pa_search <-
         "activity counts",
         "sedentary",
         "activPAL",
-        "accelerometer"
+        "accelerometer", 
+        "human activity recognition",
+        "global positionning sytems",
+        "wahoo",
+        "whoop",
+        "suunto"
     )
 
 package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
@@ -85,13 +78,11 @@ package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collap
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
 
-From this search there are 10 packages are designed to analyse some type of physical activity data.
-
+From this search there are 83 packages are designed to analyse some type of physical activity data.
 
 ```{r eval=FALSE, include=FALSE}
 table(pa_packages$package)
 ```
-
 
 ```{r}
 pa_pkg_names <- pa_packages$package
@@ -102,7 +93,45 @@ pa_pkg_names <- pa_packages$package
 ```{r}
 pa_packages %>% select(package, description) %>%
    kable() %>%
-   kable_styling("striped", full_width = F) %>% 
-   column_spec(2, width_max = 100)
+   kable_styling("striped", full_width = FALSE) %>% 
+   column_spec(2, width_max = 50)
 ```
 
+## Manual search of the packages suggests the following packages are important
+
+Core Packages
+
+
+* GGIR 
+* fitbitr
+* HMMpa
+* MIMSunit
+* mMARCH.AC
+* walkboutr
+
+Packages
+
+
+* acc
+* accelerometry
+* accelmissing
+* actilifecounts
+* activAnalyzer
+* activPAL
+* cycleRtools
+* fitbitScraper
+* fitbitViz
+* GENEAclassify
+* GENEAread
+* GENEAsphere
+* GGIRread
+* lifelogr
+* PASenseWear
+* pawacc
+* PhysActBedRest
+* PhysicalActivity
+* read.gt3x
+* Sojourn.Data
+* SwimmeR
+* trackeRapp
+* walkboutr
