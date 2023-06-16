@@ -6,6 +6,11 @@ The scope of this task view is to provide descriptions of packages that can be u
 
 The <view>TimeSeries</view> view is related to <b>HumanActivityRecognition</b> because much of the analysis work uses high-frequency time series data from accelerometers. 
 
+## Maintainers
+
+* Daniel Fuller, daniel.fuller@usask.ca
+* Kevin Mongeon, kevin.Mongeon@uottawa.ca
+
 ## Packages 
 
 We developed a [package finder](https://github.com/walkabilly/pa_task_view/blob/master/package-finder.md) script to search relevant packages. We then manually reviewed the package names and descriptions to decide what to include in the task view. We then review the download statistics and discussed each package with colleagues to determine if it should be considered a core package. The package finder can easily be updated and packages can be included manually as well. 
