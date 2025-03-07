@@ -13,7 +13,9 @@ Exclusion criteria for packages
 
 * Archived packages
 
-The <view>TimeSeries</view> view is related to <b>HumanActivityRecognition</b> because much of the analysis work uses high-frequency time series data from accelerometers. 
+Related packages
+
+* The <view>TimeSeries</view> view is related to <b>HumanActivityRecognition</b> because much of the analysis work uses high-frequency time series data from accelerometers. 
 
 ## Maintainers
 
