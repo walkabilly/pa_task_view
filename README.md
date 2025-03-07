@@ -4,6 +4,15 @@
 
 The scope of this task view is to provide descriptions of packages that can be used for <b>HumanActivityRecognition</b>. Packages for both research grade devices (e.g., accelerometers or GPS devices) and commercial wearable devices (e.g., Fitbit) are included. Packages can range from those for data acquisition (e.g., connecting to  APIs or reading in weird data formats), to data processing (e.g., missing data imputation specific to these data), to activity recognition (e.g., detecting steps or swimming). This Task View is necessary because of the area of <b>HumanActivityRecognition</b> is expanding rapidly, however, there is no hub to connect the various work that people are doing. 
 
+Inclusion criteria for packages
+
+* Analysis involving humans (there are some packages for accelerometer data for cows and pigs)
+* Analysis related to activity recognition and data processing for activity recognition
+
+Exclusion criteria for packages
+
+* Archived packages
+
 The <view>TimeSeries</view> view is related to <b>HumanActivityRecognition</b> because much of the analysis work uses high-frequency time series data from accelerometers. 
 
 ## Maintainers

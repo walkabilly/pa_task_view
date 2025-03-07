@@ -70,7 +70,8 @@ pa_search <-
         "global positionning sytems",
         "wahoo",
         "whoop",
-        "suunto"
+        "suunto",
+        "human activity"
     )
 
 package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
