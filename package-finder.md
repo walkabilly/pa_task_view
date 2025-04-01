@@ -103,7 +103,23 @@ pa_search <-
         "wahoo",
         "whoop",
         "suunto",
-        "human activity"
+        "human activity",
+	"ECG",
+        "EKG",
+        "EEG", 
+        "physionet", 
+        "Electrocardiography", 
+        "electrocardiogram",
+        "Electromyography", 
+        "electromyogram",
+        "EMG",
+        "Electroencephalography",
+         "biosignal", 
+         "Electrooculogram",
+         "Electroretinogram", 
+         "Electrogastrogram", 
+         "Galvanic skin response",
+         "electrodermal activity"
     )
 
 package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
