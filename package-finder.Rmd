@@ -125,6 +125,7 @@ Packages
 * dfvad
 * eegkit
 * eegkitdata
+* egm
 * fitbitScraper
 * fitbitViz
 * GENEAclassify
