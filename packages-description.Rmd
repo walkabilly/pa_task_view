@@ -76,6 +76,10 @@ Analysis and visualization tools for electroencephalography (EEG) data. Includes
 
 Contains the example EEG data used in the package eegkit. Also contains code for easily creating larger EEG datasets from the EEG Database on the UCI Machine Learning Repository.
 
+##egm 
+
+A system for importing electrophysiological signal, based on the 'Waveform Database (WFDB)' software package, written by Moody et al 2022 <doi:10.13026/gjvw-1m31>. A wrapper for utilizing 'WFDB' functions for reading and writing signal data, as well as functions for visualization and analysis are provided. A stable and broadly compatible class for working with signal data, supporting the reading in of cardiac electrophysiogical files such as intracardiac electrograms, is introduced.
+
 ### fitbitScraper	
 
 Scrapes data from Fitbit <http://www.fitbit.com>. First use the package to log in to your Fitbit account and then receive the data. It can get intraday data, sleep data , etc. This does not use the official API, but instead uses the API that the web dashboard uses to generate the graphs displayed on the dashboard after login at <http://www.fitbit.com>  **Keywords**: read Fitbit
