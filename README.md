@@ -39,19 +39,22 @@ There is an [repo with code examples](https://github.com/clevengerkimberly/Accel
 
 ### Packages
 
-#### Data acquisition
+#### Data acquisition/sets
 
+* [eegkitdata](https://cran.r-project.org/web/packages/eegkitdata/index.html)
 * [fitbitr](https://cran.r-project.org/web/packages/fitbitr/index.html)
 * [fitbitScraper](https://cran.r-project.org/web/packages/fitbitScraper/index.html)
 * [GENEAread](https://cran.r-project.org/web/packages/GENEAread/index.html)
 * [GGIRread](https://cran.r-project.org/web/packages/GGIRread/index.html)
+* [jointDiag](https://cran.r-project.org/web/packages/jointDiag/index.html)
 * [lifelogr](https://cran.r-project.org/web/packages/lifelogr/)
 * [PASenseWear](https://cran.r-project.org/web/packages/PASenseWear/)
 * [read.gt3x](https://cran.r-project.org/web/packages/read.gt3x/index.html)
 * [SwimmeR](https://cran.r-project.org/web/packages/SwimmeR/index.html)
 * [trackeRapp](https://cran.r-project.org/web/packages/trackeRapp/index.html)
+* [ricu](https://cran.r-project.org/web/packages/ricu/index.html)
 
-#### Data processing 
+#### Data processing/analysis and visualization
 
 * [acc](https://cran.r-project.org/web/packages/acc/index.html)
 * [accelerometry](https://cran.r-project.org/web/packages/accelerometry/index.html)
@@ -60,13 +63,27 @@ There is an [repo with code examples](https://github.com/clevengerkimberly/Accel
 * [actilifecounts](https://cran.r-project.org/web/packages/actilifecounts/index.html)
 * [activAnalyzer](https://cran.r-project.org/web/packages/activAnalyzer/index.html)
 * [activPAL](https://cran.r-project.org/web/packages/activPAL/index.html)
+* [biosignalEMG](https://cran.r-project.org/web/packages/biosignalEMG/index.html)
+* [eegkit](https://cran.r-project.org/web/packages/eegkit/index.html)
+* [egm](https://cran.r-project.org/web/packages/EGM/index.html)
+* [ieegio](https://cran.r-project.org/web/packages/ieegio/index.html)
+* [itsadug](https://cran.r-project.org/web/packages/itsadug/index.html)
 * [impactr](https://cran.r-project.org/web//packages//impactr/index.html)
 * [MIMSunit](https://cran.r-project.org/web/packages/MIMSunit/index.html)
 * [mMARCH.AC](https://cran.r-project.org/web/packages/mMARCH.AC/index.html)
+* [musclesyneRgies](https://cran.r-project.org/web/packages/musclesyneRgies/index.html)
+* [patientProfileVis](https://cran.r-project.org/web/packages/patientProfilesVis/index.html)
 * [pawacc](https://cran.r-project.org/web/packages/pawacc/index.html)
+* [permuco](https://cran.r-project.org/web/packages/permuco/index.html)
+* [permutes](https://cran.r-project.org/web/packages/permutes/index.html)
+* [pfica](https://cran.r-project.org/web/packages/pfica/index.html)
+* [plm](https://cran.r-project.org/web/packages/plm/index.html)
+* [ravetools](https://cran.r-project.org/web/packages/ravetools/index.html)
+* [threeBrain](https://cran.r-project.org/web/packages/threeBrain/index.html)
 
 #### Activity recognition
 
+* [ccid](https://cran.r-project.org/web/packages/ccid/index.html)
 * [cycleRtools](https://cran.r-project.org/web/packages/cycleRtools/index.html)
 * [GENEAsphere](https://cran.r-project.org/web/packages/GENEAsphere/index.html)
 * [GENEAclassify](https://cran.r-project.org/web/packages/GENEAclassify/index.html)
@@ -79,6 +96,7 @@ There is an [repo with code examples](https://github.com/clevengerkimberly/Accel
 #### Miscellaneous
 
 * [fitbitViz](https://cran.r-project.org/web/packages/fitbitViz/index.html)
+* [dfvad](https://cran.r-project.org/web/packages/dfvad/index.html)
 
 #### Archived Packages
 
