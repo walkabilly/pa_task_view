@@ -1,8 +1,8 @@
 <CRANTaskView>
   
-  <name>PhysicalActivity</name>
+  <name>BioSignalData</name>
   
-  <topic>Physical Activity</topic>
+  <topic>BioSignalData</topic>
   
   <maintainer email="dfuller@mun.ca">Daniel Fuller</maintainer>
   
@@ -12,14 +12,14 @@
   <url>https://CRAN.R-project.org/view=PhysicalActivity</url>
   
   <info>
-  This task view provides a brief description of packages that can be used in <b> physical activity</b> studies.Also, the view <view>TimeSeries</view> task as most of the physical activity data is in time-series format.
+  This task view provides a brief description of packages that can be used in <b> BioSignalData</b> studies.Also, the view <view>TimeSeries</view> and <view>Tracking</view> task views.
 
 
   
 <div>
 
   
-  <h1>Physical activity packages:</h1>
+  <h1>BioSignalData packages:</h1>
   
   <div>
   <pkg>acc</pkg>
