@@ -5,7 +5,7 @@ output:
       keep_md: true
 ---
 
-# Physical activity packages:
+# Bio Signal packages:
 
 ### acc
 
