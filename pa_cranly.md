@@ -25,19 +25,47 @@ package_db <- clean_CRAN_db(tools::CRAN_package_db())
 
 I have used the search terms:
 
-- physical activity
-- actigraph
-- fitbit
-- garmin
-- geneactiv
-- apple health
-- google fit
-- samsung health
-- EMG
-- EEG
-- ECG
-- biosignal
-- accelerometer
+
+      "physical activity",
+        "actigraph",
+        "Actigraph",
+        "fitbit",
+        "garmin",
+        "geneactiv",
+        "apple health",
+        "google fit",
+        "samsung health",
+        "exercise",
+        "omron",
+        "actilife",
+        "cycling",
+        "swimming",
+        "activity counts",
+        "sedentary",
+        "activPAL",
+        "accelerometer", 
+        "human activity recognition",
+        "global positionning sytems",
+        "wahoo",
+        "whoop",
+        "suunto",
+        "human activity",
+	  "ECG",
+        "EKG",
+        "EEG", 
+        "physionet", 
+        "Electrocardiography", 
+        "electrocardiogram",
+        "Electromyography", 
+        "electromyogram",
+        "EMG",
+        "Electroencephalography",
+        "biosignal", 
+        "Electrooculogram",
+        "Electroretinogram", 
+        "Electrogastrogram", 
+        "Galvanic skin response",
+        "electrodermal activity"
 
 
 ```r
@@ -63,7 +91,46 @@ library(dplyr)
 ```
 
 ```r
-pa_search <- c("physical activity", "actigraph", "fitbit", "garmin", "geneactiv", "apple health", "google fit", "samsung health")
+pa_search <- c("physical activity",
+        "actigraph",
+        "Actigraph",
+        "fitbit",
+        "garmin",
+        "geneactiv",
+        "apple health",
+        "google fit",
+        "samsung health",
+        "exercise",
+        "omron",
+        "actilife",
+        "cycling",
+        "swimming",
+        "activity counts",
+        "sedentary",
+        "activPAL",
+        "accelerometer", 
+        "human activity recognition",
+        "global positionning sytems",
+        "wahoo",
+        "whoop",
+        "suunto",
+        "human activity",
+	  "ECG",
+        "EKG",
+        "EEG", 
+        "physionet", 
+        "Electrocardiography", 
+        "electrocardiogram",
+        "Electromyography", 
+        "electromyogram",
+        "EMG",
+        "Electroencephalography",
+        "biosignal", 
+        "Electrooculogram",
+        "Electroretinogram", 
+        "Electrogastrogram", 
+        "Galvanic skin response",
+        "electrodermal activity")
 package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse="|"))
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
