@@ -9,7 +9,7 @@
 #setwd("pa_task_view") # Linux system
 # --------------------------------------------------------------
 
-ctv <- "PhysicalActivity"
+ctv <- "BioSignalData"
 
 ctvfile  <- paste0(ctv, ".ctv")
 htmlfile <- paste0(ctv, ".html")
