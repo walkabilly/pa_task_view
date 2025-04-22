@@ -48,7 +48,7 @@ library(kableExtra)
 ```{r}
 pa_search <-
     c(
-        "physical activity",
+      "physical activity",
         "actigraph",
         "Actigraph",
         "fitbit",
@@ -71,7 +71,23 @@ pa_search <-
         "wahoo",
         "whoop",
         "suunto",
-        "human activity"
+        "human activity",
+	    "ECG",
+        "EKG",
+        "EEG", 
+        "physionet", 
+        "Electrocardiography", 
+        "electrocardiogram",
+        "Electromyography", 
+        "electromyogram",
+        "EMG",
+        "Electroencephalography",
+        "biosignal", 
+        "Electrooculogram",
+        "Electroretinogram", 
+        "Electrogastrogram", 
+        "Galvanic skin response",
+        "electrodermal activity"
     )
 
 package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collapse = "|"))
@@ -79,7 +95,7 @@ package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collap
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
 
-From this search there are 93 packages are designed to analyse some type of physical activity data.
+From this search there are 93 packages are designed to analyse some type of biosignal data.
 
 ```{r eval=FALSE, include=FALSE}
 table(pa_packages$package)
