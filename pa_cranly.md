@@ -1,5 +1,5 @@
 ---
-title: "PA Task View"
+title: "BioSignal Task View"
 author: "Daniel Fuller"
 date: '2018-06-07'
 output:
@@ -9,7 +9,7 @@ output:
 
 
 
-## Creating a task view for physical activity researchers
+## Identifying Relevant Packages for the BiosignalData Task View
 
 First step is use the `cranly` package to see what is out there. I found this tutorial to help https://rviews.rstudio.com/2018/05/31/exploring-r-packages/. Now I have a tidy dataframe with all the packages. 
 
@@ -21,7 +21,7 @@ library(cranly)
 package_db <- clean_CRAN_db(tools::CRAN_package_db())
 ```
 
-## Search dataframe for physical activity related packages
+## Acquire and Clean CRAN Package Data
 
 I have used the search terms:
 
@@ -33,8 +33,11 @@ I have used the search terms:
 - apple health
 - google fit
 - samsung health
-
-I had originally included the term `exercise` but that search included many packages that were not related to physical activity. I also did the same search in title but that did not help and only returned 1 result that was already captured in the description search. 
+- EMG
+- EEG
+- ECG
+- biosignal
+- accelerometer
 
 
 ```r
@@ -65,7 +68,7 @@ package_db$pa <- str_extract_all(package_db$description, paste(pa_search, collap
 pa_packages <- filter(package_db, pa != "character(0)")
 ```
 
-From this search there are 10 packages are designed to analyse some type of physical activity data.
+From this search there are 10 packages are designed to analyse some type of biosignal data.
 
 
 ```r
