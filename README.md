@@ -1,21 +1,28 @@
-# Human Activity Recognition Task View
+# BioSignalData Task View
 
 ## Scope
 
-The scope of this task view is to provide descriptions of packages that can be used for <b>HumanActivityRecognition</b>. Packages for both research grade devices (e.g., accelerometers or GPS devices) and commercial wearable devices (e.g., Fitbit) are included. Packages can range from those for data acquisition (e.g., connecting to  APIs or reading in weird data formats), to data processing (e.g., missing data imputation specific to these data), to activity recognition (e.g., detecting steps or swimming). This Task View is necessary because of the area of <b>HumanActivityRecognition</b> is expanding rapidly, however, there is no hub to connect the various work that people are doing. 
+The BiosignalData Task View encompasses R packages designed for the acquisition, processing, analysis, and visualization of biosignal data collected from human subjects. Biosignals refer to physiological data captured by sensors such as accelerometers, gyroscopes, electromyography (EMG), electroencephalography (EEG), and electrocardiography (ECG). This Task View excludes packages primarily focused on GPS-based tracking data, which are covered in the [Tracking Task View](https://cran.r-project.org/web/views/Tracking.html).
+
+Packages can range from those for data acquisition (e.g., connecting to  APIs or reading in weird data formats), to data processing (e.g., missing data imputation specific to these data), to activity recognition (e.g., detecting steps or swimming). The rapid growth of biosignal data analysis in health, sports, and behavioral sciences necessitates a centralized resource to guide researchers and practitioners in selecting appropriate R packages for their work.
 
 Inclusion criteria for packages
 
-* Analysis involving humans (there are some packages for accelerometer data for cows and pigs)
-* Analysis related to activity recognition and data processing for activity recognition
+* Packages that facilitate the acquisition, processing, or analysis of biosignal data from human subjects.
+* Tools specifically designed for biosignal modalities such as accelerometry, EMG, EEG, and ECG.
+* Analysis related to activity recognition and data processing for activity recognition.
 
 Exclusion criteria for packages
 
-* Archived packages
+* Packages focused solely on animal biosignal data
+* Packages primarily dealing with GPS-based tracking data
+* Archived or deprecated packages
 
 Related packages
 
-* The <view>TimeSeries</view> view is related to <b>HumanActivityRecognition</b> because much of the analysis work uses high-frequency time series data from accelerometers. 
+* [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html): Many biosignal analyses involve time series data.
+* [Tracking](https://cran.r-project.org/web/views/Tracking.html): For packages related to GPS-based tracking data.
+* [MedicalImaging](https://cran.r-project.org/web/views/MedicalImaging.html): For packages dealing with medical imaging data.
 
 ## Maintainers
 
@@ -24,7 +31,7 @@ Related packages
 
 ## Packages 
 
-We developed a [package finder](https://github.com/walkabilly/pa_task_view/blob/master/package-finder.md) script to search relevant packages. We then manually reviewed the package names and descriptions to decide what to include in the task view. We then review the download statistics and discussed each package with colleagues to determine if it should be considered a core package. The package finder can easily be updated and packages can be included manually as well. 
+We developed a [package finder](https://github.com/cran-task-views/BiosignalData) script to search relevant packages. We then manually reviewed the package names and descriptions to decide what to include in the task view. We then review the download statistics and discussed each package with colleagues to determine if it should be considered a core package. The package finder can easily be updated and packages can be included manually as well. 
 
 There is an [repo with code examples](https://github.com/clevengerkimberly/AccelerometerRepository) for many published methods in Human Activity Recognition. This was developed by Dr. Kimberly Clevenger. 
 
